@@ -1,24 +1,35 @@
 body {
     background-color: rgb(58, 52, 52);
     padding: 20px;
-    font-family: Arial, sans-serif; /* Use a web-safe font for better compatibility */
+    font-family: Arial, sans-serif;
   }
   
   h1 {
     padding: 20px;
     background: rgb(44, 135, 240);
     border-radius: 20px;
-    text-align: center; /* Center the text */
-    margin-bottom: 20px; /* Add some space between the header and the content */
+    text-align: center;
+    margin-bottom: 20px;
   }
   
   p {
     background-color: palegreen;
     color: black;
     border-radius: 5px;
-    width: 100%; /* Make the paragraph width 100% for better responsiveness */
+    width: 100%;
     padding: 10px;
-    box-sizing: border-box; /* Include padding in the width calculation */
-    margin-bottom: 10px; /* Add some space between paragraphs */
+    box-sizing: border-box;
+    margin-bottom: 10px;
   }
   
+  /* Media query for smaller screens (adjust the max-width as needed) */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5em; /* Increase the font size for h1 on smaller screens */
+    }
+  
+    p {
+      font-size: 1.2em; /* Increase the font size for paragraphs on smaller screens */
+      width: 100%; /* Ensure paragraphs take full width on smaller screens */
+    }
+  }
