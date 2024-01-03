@@ -1,18 +1,24 @@
 body {
     background-color: rgb(58, 52, 52);
     padding: 20px;
+    font-family: Arial, sans-serif; /* Use a web-safe font for better compatibility */
   }
   
   h1 {
     padding: 20px;
     background: rgb(44, 135, 240);
     border-radius: 20px;
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add some space between the header and the content */
   }
   
   p {
     background-color: palegreen;
     color: black;
     border-radius: 5px;
-    width: 200px;
+    width: 100%; /* Make the paragraph width 100% for better responsiveness */
     padding: 10px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+    margin-bottom: 10px; /* Add some space between paragraphs */
   }
+  
