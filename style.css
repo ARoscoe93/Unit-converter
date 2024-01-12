@@ -51,6 +51,7 @@ p {
   padding: 10px;
   box-sizing: border-box;
   margin-bottom: 10px;
+  font-size: large;
 }
 
 /* Media query for smaller screens (adjust the max-width as needed) */
